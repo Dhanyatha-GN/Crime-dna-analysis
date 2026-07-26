@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "case_master_function",
+		"stack": "python_3_11",
+		"type": "advancedio",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "main.py"
+	}
+}

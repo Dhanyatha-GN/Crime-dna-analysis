@@ -1,0 +1,15 @@
+{
+  "appsail": [
+    {
+      "source": ".",
+      "name": "case-master-api"
+    }
+  ],
+  "functions": {
+    "targets": [
+      "case_master_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}
