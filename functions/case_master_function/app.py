@@ -1,5 +1,8 @@
 from flask import Flask
 from backend.routes.crime_routes import crime_routes
+from backend.routes.summary_routes import summary_bp
+
+app.register_blueprint(summary_bp)
 
 def create_app():
     app = Flask(__name__)
